@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+body::before {
+    background: #041832;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.tela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container__informacoes {
+    text-align: center;
+}
+
+.container__botao {
+    border-radius: 16px;
+    background: #1875E8;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.container__texto-azul {
+    color: #1875E8;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+}
+
+h2, p, button {
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
